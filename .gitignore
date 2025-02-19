@@ -1,0 +1,17 @@
+/SimpleCalculator/nbproject/private/
+/Calculator/nbproject/private/
+/Calculator/build/
+/SimpleCalculator/build/
+
+out/
+build/
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+bin/
+*.jar
+*.class
