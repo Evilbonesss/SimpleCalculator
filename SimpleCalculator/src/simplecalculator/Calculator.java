@@ -9,12 +9,27 @@ package simplecalculator;
  * @author Stepan
  */
 public class Calculator {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    
+    public double add(double a, double b) {
+        return a + b;
     }
     
+    public double subtract(double a, double b) {
+        return a - b;
+    }
+    
+    public double multiply(double a, double b) {
+        return a * b;
+    }
+    
+    public double divide(double a, double b) {
+        if (b==0){
+            throw new ArithmeticException("Деление на ноль!");
+        }
+        return a / b;
+    }
+    
+    public double power(double a, double b) {
+       return Math.pow(a, b);
+    }
 }
