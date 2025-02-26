@@ -4,10 +4,9 @@
  */
 package simplecalculator;
 
-/**
- *
- * @author Stepan
- */
 public class CalculatorApp {
-    
+    public static void main(String[] args) {
+        CalculatorGUI calculatorGUI = new CalculatorGUI();
+        calculatorGUI.setVisible(true);
+    }
 }
